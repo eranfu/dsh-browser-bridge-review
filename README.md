@@ -30,6 +30,12 @@ Extract the ZIP, read its README, verify its checksums, then use the existing DS
 
 Installation, activation, pairing, model access, browser actions and complete native teardown are separate checks. The preview has static/archive/syntax validation, **not clean-machine runtime acceptance**. Complete ownership-safe native uninstall is not provided in this baseline; use the documented review-environment teardown and retain unresolved work rather than deleting state to simulate success.
 
+## Benign functional test page
+
+[Browser Bridge Safe Demo](https://eranfu.github.io/dsh-browser-bridge-review/) is publicly accessible without an account. Its code only echoes sample input and increments an in-page counter; it does not persist or submit the input. The page also contains blank sensitive-field refusal fixtures—do not enter real credentials. GitHub Pages may record normal hosting access logs.
+
+Public HTTP availability has been checked; this does not certify actual Bridge/DSH page actions. Complete the kit’s real pairing and functional checks in the review environment.
+
 ## Privacy and support
 
 [Public privacy policy](https://gist.github.com/eranfu/65c245f132e326876c7faf13bac404ff)
